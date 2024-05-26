@@ -1,0 +1,7 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Calendar - Check">
+<path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M1 1H25V1V19.7826C25 22.6522 22.6522 25 19.7826 25H6.21739C3.34783 25 1 22.6522 1 19.7826V1V1Z" stroke="#3B3A40" stroke-width="2"/>
+<path id="Check" d="M7.78271 13.2521L12.6349 18.0521L19.2175 10.3999" stroke="#3B3A40" stroke-width="2" stroke-linejoin="round"/>
+<path id="Path_2" d="M5.6958 6.17396H20.3045" stroke="#3B3A40" stroke-width="2"/>
+</g>
+</svg>

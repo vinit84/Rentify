@@ -1,0 +1,20 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 27">
+<rect id="Rectangle" width="72" height="72" rx="20" fill="#E3DCFE"/>
+<g id="Group 32">
+<g id="Group 26">
+<g id="House">
+<path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M44.0777 44C44.0777 44 42.1105 44 41.1269 44C39.1652 44 36.4123 44 32.8682 44C32.0186 44 30.183 44 30.183 44C27.4041 44 25.1304 41.7304 25.1304 38.9565V28.5527C25.1304 28.2574 25.2609 27.9773 25.4869 27.7873L36.4869 18.5409C36.8589 18.2282 37.4018 18.2282 37.7738 18.5409L48.7738 27.7873C48.9999 27.9773 49.1304 28.2574 49.1304 28.5527V38.9565C49.1304 41.7304 46.8567 44 44.0777 44Z" stroke="#6C57BE" stroke-width="2"/>
+<g id="Money">
+<path id="Path_2" d="M40.1154 28.7508C39.1666 28.2846 38.0598 28.0515 36.953 28.0127C35.2137 28.0127 33.6516 29.1976 33.6516 30.2854C33.6516 31.4121 34.7585 32.3445 37.0248 33.0438C39.6075 33.8596 40.3789 34.5006 40.3789 35.705C40.3789 37.259 38.2706 38.0748 36.4259 38.0748C35.2137 38.0748 34.0014 37.8029 33 37.2978" stroke="#6C57BE" stroke-width="2"/>
+<path id="Path_3" d="M37.0249 26V40.087" stroke="#6C57BE" stroke-width="2"/>
+</g>
+</g>
+</g>
+<path id="Path 2" d="M17.1011 28.0001L25.101 28.0214" stroke="#6C57BE" stroke-width="2"/>
+<path id="Path 2 Copy" d="M44 44.0001L56 44.0214" stroke="#6C57BE" stroke-width="2"/>
+<circle id="Oval" cx="31.1304" cy="51" r="3" fill="white" stroke="#6C57BE" stroke-width="2"/>
+<circle id="Oval Copy 2" cx="43.1304" cy="51" r="3" fill="white" stroke="#6C57BE" stroke-width="2"/>
+</g>
+</g>
+</svg>

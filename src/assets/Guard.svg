@@ -1,0 +1,8 @@
+<svg width="22" height="28" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Guard">
+<g id="Shield">
+<path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M10.913 26C10.913 26 1 22.4522 1 12.2261V3.82609L10.913 2L20.8261 3.82609V12.2261C20.8261 22.5565 10.913 26 10.913 26Z" stroke="#3B3A40" stroke-width="2"/>
+</g>
+<path id="Check" d="M6.47827 12.4349L10.8087 16.8175L15.8696 9.05225" stroke="#3B3A40" stroke-width="2" stroke-linejoin="round"/>
+</g>
+</svg>

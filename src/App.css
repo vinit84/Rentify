@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: local('Gilroy-Bold'), url(../public/Gilroy-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: local('Gilroy-Regular'), url(../public/Gilroy-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: local('Gilroy-Light'), url(../public/Gilroy-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url(../public/Gilroy-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gilroy-MediumItalic';
+  src: local('Gilroy-MediumItalic'), url(../public/Gilroy-MediumItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: local('Gilroy-SemiBold'), url(../public/Gilroy-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: local('Gilroy-ExtraBold'), url(../public/Gilroy-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: local('Gilroy-Black'), url(../public/Gilroy-Black.ttf) format('truetype');
+}
+
+.Gilroy-Bold { font-family: 'Gilroy-Bold', sans-serif; }
+.Gilroy-Regular { font-family: 'Gilroy-Regular', sans-serif; }
+.Gilroy-Light { font-family: 'Gilroy-Light', sans-serif; }
+.Gilroy-Medium { font-family: 'Gilroy-Medium', sans-serif; }
+.Gilroy-MediumItalic { font-family: 'Gilroy-MediumItalic', sans-serif; }
+.Gilroy-SemiBold { font-family: 'Gilroy-SemiBold', sans-serif; }
+.Gilroy-ExtraBold { font-family: 'Gilroy-ExtraBold', sans-serif; }
+.Gilroy-Black { font-family: 'Gilroy-Black', sans-serif; }
+.Gilroy-ExtraLight { font-family: 'Gilroy-ExtraLight', sans-serif; }
+.Gilroy-Thin { font-family: 'Gilroy-Thin', sans-serif; }
+.Gilroy-Heavy { font-family: 'Gilroy-Heavy', sans-serif; }
+.Gilroy-Italic { font-family: 'Gilroy-Italic', sans-serif; }
+.Gilroy-BoldItalic { font-family: 'Gilroy-BoldItalic', sans-serif; }
+
+
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #348193; /* Change this color if needed */
+  bottom: -5px; /* Adjust this value based on your design */
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
