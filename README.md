@@ -143,4 +143,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Contact
-For any questions or support, please contact Vinit Upadhyay at vinitupadhyay8454@gmail.co
+For any questions or support, please contact Vinit Upadhyay at vinitupadhyay8454@gmail.com
