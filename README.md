@@ -30,11 +30,7 @@ Rentify is a real estate web application developed as part of the Presidio Chall
 - **Pagination:** Implemented for property listings.
 - **Authentication:** Login required for buyers to view seller details.
 - **Unauthorized Access Handling:** Redirect unauthorized users to the login screen.
-- **Like Button:** Added to each property to track the count live.
-- **Email Notifications:** 
-  - Buyers receive seller contact details via email upon showing interest.
-  - Sellers receive buyer details via email when a buyer shows interest.
-
+  
 ### Bonus Points (Optional)
 - **Cloud Deployment:** The application is deployed on a cloud platform.
 
