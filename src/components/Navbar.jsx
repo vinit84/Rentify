@@ -62,7 +62,7 @@ function Navbar() {
             Rent
           </a>
           <a
-            href="#"
+            href="/seller"
             className="text-neutral-500 text-sm Gilroy-Medium nav-link"
           >
             Sell
@@ -75,10 +75,11 @@ function Navbar() {
           </a>
         </div>
         <div className="flex justify-center items-center">
-          <img
+        <img
             className={`flex w-28 h-12 ${isDetailRoute ? "hidden" : "visible"}`}
             src={Rentify}
             alt="Logo"
+            onClick={() => navigate('/')}
           />
           {isDetailRoute && (
             <div
@@ -149,7 +150,7 @@ function Navbar() {
                 Rent
               </a>
               <a
-                href="#"
+                href="/seller"
                 className="text-neutral-500 text-sm Gilroy-Medium nav-link"
               >
                 Sell

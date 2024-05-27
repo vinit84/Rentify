@@ -8,6 +8,7 @@ import UploadForm from "./Seller/Upload";
 import Listed from "./Seller/Listed";
 import { useNavigate } from "react-router-dom";
 import { getAuth, onAuthStateChanged } from "@firebase/auth";
+import { get, getDatabase, ref } from "firebase/database";
 
 
 
@@ -35,14 +36,24 @@ export default function Seller() {
   const auth = getAuth();
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
-      if (user) {
-        setUser(user);
-      } else {
+    const unsubscribe = onAuthStateChanged(auth, async (user) => {
+      if (!user) {
         navigate("/login");
+      } else {
+        // Assuming the role is stored in the database under users/{uid}/role
+        const db = getDatabase();
+        const roleRef = ref(db, `users/${user.uid}/role`);
+        const roleSnapshot = await get(roleRef);
+        const userRole = roleSnapshot.val();
+  
+        if (userRole !== 'seller') {
+          navigate("/login");
+        } else {
+          setUser(user); // Set user if authenticated and authorized as seller
+        }
       }
     });
-
+  
     return () => unsubscribe();
   }, [auth, navigate]);
 
